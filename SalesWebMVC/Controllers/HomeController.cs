@@ -17,8 +17,12 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult About()
         {
+            // O ViewData é um dicionário do C#
             ViewData["Message"] = "Your application description page.";
+            // exemplo:
+            // ViewData["email"] = "nelio@gmail.com";
 
+            // method builder
             return View();
         }
 
